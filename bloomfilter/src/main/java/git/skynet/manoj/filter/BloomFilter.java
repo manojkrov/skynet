@@ -156,6 +156,10 @@ public class BloomFilter {
 	public int getElementsAdded() {
 		return elementsAdded;
 	}
+	
+	public void clearFilter(){
+		bitSet.clear();
+	}
 
 	@Override
 	public String toString() {
